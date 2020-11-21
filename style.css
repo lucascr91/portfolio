@@ -1,0 +1,50 @@
+
+.main-text {
+    font-family: 'Times New Roman', Times, serif;
+    width: 900px;
+    margin: 25px auto 75px auto;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 23.8px;
+    color: #515151;
+    padding-top: 200px;
+    /* border-right-color: rgb(204, 204,204);
+    border-right-style: solid;
+    border-right-width: 1px; */
+}
+
+ /* Style all font awesome icons */
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-github {
+background: #1b1b1b;
+color: white;
+}
+
+.fa-linkedin {
+background: #005fa8;
+color: white;
+} 
+
+p {
+    padding-top: 20px;
+}
+
+h5 {
+    padding-bottom: 20px;
+}
+
