@@ -1,13 +1,13 @@
 
 .main-text {
     font-family: 'Times New Roman', Times, serif;
-    width: 1200px;
+    width: 600px;
     margin: 25px auto 75px auto;
     text-align: justify;
     font-size: 17px;
     line-height: 23.8px;
     color: #515151;
-    padding-top: 200px;
+    padding-top: 50px;
     /* border-right-color: rgb(204, 204,204);
     border-right-style: solid;
     border-right-width: 1px; */
@@ -41,19 +41,21 @@ color: white;
 } 
 
 p {
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
 }
 
 h5 {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 hr {
-    height:2px;
+    height:1px;
     border-width:0;
     color:gray;
     background-color:gray;
     padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .fa-file-pdf-o{
@@ -71,4 +73,20 @@ button {
     align-content: center;
     text-decoration: none;
     border-radius: 50%;
+}
+
+.tag {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+    /* background-color: var(--main-cool-blue); */
+    color: rgb(214, 228, 250);
+    background: #005fa8;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.tag:hover {
+    opacity: 0.65;
 }
