@@ -44,7 +44,6 @@ color: white;
 .fa-stack-overflow {
     color: white;
     background: rgb(153, 153, 153);
-
 }
 
 p {
@@ -90,3 +89,27 @@ button {
 .tag:hover {
     opacity: 0.65;
 }
+
+.curriculum {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    background: rgb(153, 153, 153);
+    border: 2px solid rgb(153, 153, 153);
+}
+
+.ai-lattes {
+    padding: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    background: #005fa8;
+    color: white;}
