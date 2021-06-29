@@ -1,4 +1,7 @@
+body {
+    background-color: #515151;
 
+}
 .main-text {
     font-family: 'Times New Roman', Times, serif;
     width: 600px;
@@ -6,7 +9,7 @@
     text-align: justify;
     font-size: 17px;
     line-height: 23.8px;
-    color: #515151;
+    color:white;
     padding-top: 50px;
     /* border-right-color: rgb(204, 204,204);
     border-right-style: solid;
@@ -55,9 +58,13 @@ h5 {
     padding-bottom: 0px;
 }
 
+h3 {
+    padding-bottom: 0px;
+}
+
 
 hr {
-    height:1px;
+    height:2px;
     border-width:0;
     color:gray;
     background-color:gray;
