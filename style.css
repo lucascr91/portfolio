@@ -13,8 +13,8 @@ body, html {
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+    /* background-size: cover; */
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.9);
   }
 
 .main-text {
@@ -22,7 +22,7 @@ body, html {
     width: 600px;
     margin: 0px auto 75px auto;
     text-align: justify;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 23.8px;
     color:white;
     padding-top: 50px;
