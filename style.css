@@ -48,12 +48,13 @@ color: white;
 
 p {
     padding-top: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 h5 {
     padding-bottom: 0px;
 }
+
 
 hr {
     height:1px;
