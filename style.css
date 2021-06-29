@@ -1,16 +1,32 @@
-body {
-    background-color: #515151;
+body, html {
+    height: 100%;
+    margin: 0;
+  }
 
-}
+.bg {
+    /* The image used */
+    background-image: url("chicago.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+  }
+
 .main-text {
     font-family: 'Times New Roman', Times, serif;
     width: 600px;
-    margin: 25px auto 75px auto;
+    margin: 0px auto 75px auto;
     text-align: justify;
     font-size: 17px;
     line-height: 23.8px;
     color:white;
     padding-top: 50px;
+    /* background-color: #515151; */
     /* border-right-color: rgb(204, 204,204);
     border-right-style: solid;
     border-right-width: 1px; */
